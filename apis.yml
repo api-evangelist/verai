@@ -1,7 +1,25 @@
 aid: verai
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/verai.png
 name: VerAI
-description: VerAI is a company surfaced as a portfolio company of insight-partners and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: VerAI Discoveries is an AI-driven mineral discovery company founded in 2020 and
+  headquartered in Boston, Massachusetts. Its proprietary AI/ML Discovery Platform searches
+  magnetic, gravimetric, electromagnetic, and seismic geophysical datasets to detect concealed
+  mineral deposits in underexplored covered terrain, generating drill-ready targets across a
+  portfolio of more than sixty mineral projects and royalties in North and South America. VerAI
+  partners with explorers and investors to develop critical-mineral assets essential to the
+  green-energy transition. The company is backed by Insight Partners, Blumberg Capital, Chrysalix
+  Venture Capital, and Orion Industrial Ventures, and to date exposes no public developer API surface.
 url: https://raw.githubusercontent.com/api-evangelist/verai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Artificial Intelligence
+- Machine Learning
+- Mining
+- Mineral Exploration
+- Geoscience
+- Critical Minerals
+- Geospatial
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +46,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/verai-domain-security.yml
 - type: Website
   url: https://ver-ai.com/
+- type: Blog
+  url: https://ver-ai.com/news/
+- type: Support
+  url: https://ver-ai.com/contact-us/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
