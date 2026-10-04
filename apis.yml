@@ -44,7 +44,7 @@ modified: '2026-07-21'
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Mining
 - Mineral Exploration
 - Geoscience
@@ -59,6 +59,7 @@ tags_raw:
 - Geoscience
 - Critical Minerals
 - Geospatial
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
